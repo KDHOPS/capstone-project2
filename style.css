@@ -68,33 +68,18 @@ body{
     color: rgb(62, 70, 77)
 }
 
-button{
-    background-color: blueviolet;
-    font-family: "Tahoma", sans-serif;
-    font-size: 1.5vw;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    margin: 5vw;
-    padding: 1vw;
-    width: 15vw;
+a{
+    text-decoration: none;
+    padding: 0 3vw;
+    color: rgb(48, 11, 85);
 }
 
-button:hover{
-    background-color: #a435f0;
-}
 
 .bottom-container{
     background-color: #a435f0;
     padding: 5vw 0;
     text-align: center;
     font-size: 1.5vw;
-}
-
-a{
-    text-decoration: none;
-    padding: 0 3vw;
-    color: rgb(48, 11, 85);
 }
 
 .footer{
@@ -112,6 +97,22 @@ a{
     font-size: 2.8vw;
     color: #a435f0;
     text-align: center;
+}
+
+.btn{
+    background-color: blueviolet;
+    font-family: "Tahoma", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1vw;
+    width: 15vw;
+    margin-top: 300px;
+}
+
+#btn:hover{
+    background-color: #a435f0;
 }
 
 .main-para{
@@ -156,8 +157,11 @@ a{
     .heading-container .school-logo{
         width: 10vw;
     }
+    a{
+        padding: 0 5vw;
+    }
 
-    button{
+    .btn{
         font-size: 3vw;
         padding: 2vw;
         width: 30vw;
@@ -166,10 +170,6 @@ a{
     .bottom-container{
         padding: 5vw 0;
         font-size: 3vw;
-    }
-    
-    a{
-        padding: 0 5vw;
     }
     
     .footer{
