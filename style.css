@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fefdfd;
+}
+
+.top-container .banner{
+    width: 100%;
+}
+
+.top-container{
+    position: relative;
+}
+
+.top-text-container{
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    font-size: 5vw;
+    color: #a435f0;
+    position: absolute;
+    top: 5vw;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.top-text-container h2{
+    color: white;
+    padding-top: 3vw;
+    font-family: "Tahoma", sans-serif;
+    font-size: 3vw;
+}
+
+.middle-container .myphoto{
+    border: .2vw solid #a435f0;
+    border-radius: 50%;
+    margin: 5vw 40%;
+    width: 20%;
+}
+
+
+.intro p{
+    text-align: center;
+    margin: 5vw 25%;
+    width: 50%;
+    font-size: 2vw;
+    color: rgb(62, 70, 77)
+}
+
+.resume-page{
+    text-align: center;
+    margin: 5vw 30%;
+    width: 40%;
+}
+
+.heading-container .school-logo{
+    width: 5vw;
+}
+
+.heading-container{
+    margin: 5vw 0;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(62, 70, 77)
+}
+
+button{
+    background-color: blueviolet;
+    font-family: "Tahoma", sans-serif;
+    font-size: 1.5vw;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 5vw;
+    padding: 1vw;
+    width: 15vw;
+}
+
+button:hover{
+    background-color: #a435f0;
+}
+
+.bottom-container{
+    background-color: #a435f0;
+    padding: 5vw 0;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 3vw;
+    color: rgb(48, 11, 85);
+}
+
+.footer{
+    color: white;
+    font-size: 1.3vw;
+}
+
+
+.text-left{
+    text-align: left;
+}
+
+.headings{
+    font-family: "Tahoma", sans-serif;
+    font-size: 2.8vw;
+    color: #a435f0;
+    text-align: center;
+}
+
+.main-para{
+    font-size: 1.5vw;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.top-padding{
+    padding-top: 3vw;
+}
+
+.bot-padding{
+    padding-bottom: 3vw;
+}
+
+.bb{
+    padding-top: 5vw;
+    border-top: 0.1vw solid #a435f0;
+}
+
+@media (max-width:600px){
+    .middle-container .myphoto{
+        margin: 5vw 30%;
+        width: 40%;
+    }
+
+    .intro p{
+        margin: 5vw 10%;
+        width: 80%;
+        font-size: 4vw;
+    }
+
+    .resume-page{
+        padding-top: 5vw;
+        margin: 5vw 10%;
+        width: 80%;
+    }
+    
+    .heading-container .school-logo{
+        width: 10vw;
+    }
+
+    button{
+        font-size: 3vw;
+        padding: 2vw;
+        width: 30vw;
+    }
+    
+    .bottom-container{
+        padding: 5vw 0;
+        font-size: 3vw;
+    }
+    
+    a{
+        padding: 0 5vw;
+    }
+    
+    .footer{
+        font-size: 2.5vw;
+    }
+    
+    .heading-container{
+        margin: 5vw 0;
+        font-size: 3vw;
+    }
+
+    .headings{
+        font-size: 6vw;
+    }
+
+    .main-para{
+        font-size: 2.5vw;
+    }
+
+}
+
